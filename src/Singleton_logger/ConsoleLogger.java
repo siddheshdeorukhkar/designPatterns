@@ -1,7 +1,8 @@
 package Singleton_logger;
 //logger implementation
 public class ConsoleLogger implements Logger{
-    private static Logger instance = new ConsoleLogger();
+    //this is eager initialization
+    private static final Logger instance = new ConsoleLogger();
 
     private ConsoleLogger() {
     }
