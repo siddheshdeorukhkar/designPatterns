@@ -7,3 +7,5 @@ There are four types of implementation of singleton design pattern:
 2.Lazy Initialization 
 3.Thread safe implementation
 4.Double checked locking
+
+In logger code we have done eager initialization.
